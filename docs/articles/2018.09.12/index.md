@@ -40,11 +40,11 @@
 
 #### Аддиттивная
 
-![](RGB.png)
+![](/docs/articles/2018.09.12/RGB.png)
 
 #### Субтрактивная
 
-![](CMYK.png)
+![](/docs/articles/2018.09.12/CMYK.png)
 
 ### Цветовые профили (охват)
 
@@ -101,7 +101,7 @@ DCI-P3 дает на 25% больший цветовой охват
 [http://caniuse.com/#search=webp](http://caniuse.com/#search=webp)
 
 [сравнение анимационных форматов](http://littlesvr.ca/apng/gif_apng_webp.html)
- 
+
 #### [GIF](https://ru.wikipedia.org/wiki/GIF)
 
 Старый формат графики. Можно считать что он утратил свою актуальность на сейчас.
