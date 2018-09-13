@@ -1,111 +1,3 @@
-# Гипертекст, навигация (внутренняя и внешняя)
-
-**Jon Dukket 4 (стр. 81)**
-
-[Примеры кода](http://www.htmlandcssbook.com/code-samples/)
-
-
-Ссылки — это определяющая функциональность веба, поскольку они позволяют вам переходить от одной странички, к другой и тем самым реализует идею веб браунинга или серфинга.
-
-Наиболее частые типы ссылок:
-
-- Ссылка с одного сайта на другой
-- Ссылка с одной страницы на другую на этом же сайте
-- Ссылки с одной части страницы на другую часть этой же страницы
-- Ссылки которые открываются в новом окне браузера
-- Ссылки которые запускают почтовый клиент с новым письмом и заполненным почтовым адресом
-
-## [Элемент A](https://developer.mozilla.org/ru/docs/Web/HTML/Element/a) — anchor
-
-```html
-<a href="http://www.imdb.com">IMDB</a>
-```
-
-Текст внутри тегов называется текст ссылки.
-
-Пишите понятные описания ссылок чтобы пользователь сразу сориентировался куда он переходит.
-
-`href` — http-reference
-
-URL — Uniform Recource Locator
-URI — Uniform Recource Identificator
-
-[В чем разница между URL и URI](http://qaru.site/questions/144/what-is-the-difference-between-a-uri-a-url-and-a-urn)
-
-## Виды url
-
-Абсолютный URL содержит полный путь к документу в сети
-
-```html
-<a href="https://ru.wikipedia.org/wiki/JPEG">JPEG</a>
-```
-
-Относительный URL содержит путь без указания домена, относительно текущего документа.
-
-```html
-<a href="/wiki/JPEG">JPEG</a>
-```
-
-### Виды относительных ссылок
-
-В той же папке с текущим документом
-
-```html
-<a href="reviews.html">Reviews</a>
-```
-
-В директории-потомке
- 
-```html
-<a href="music/listings.html">Listings</a>
-```
-
-В директории «внуке»
-
-```html
-<a href="movies/dvd/reviews.html"> Reviews</a>
-```
-
-В родительской директории (на уровень выше)
-
-```html
-<a href="../index.html">Home</a>
-```
-
-На несколько уровней выше
-
-```html
-<a href="../../index.html">Home</a>
-```
-
-
-## Почтовые ссылки mailto:
-
-```html
-<a href="mailto:jon@example.org">Email Jon</a>
-```
-
-## Ссылки открывающиеся в новом окне
-
-Используя атрибут [`target`](https://developer.mozilla.org/ru/docs/Web/HTML/Element/a#attr-target)
-
-## Ссылка на конкретную часть страницы
-
-```html
-<a href="#arc_shot">Arc Shot</a>
-
-<h1 id="arc_shot">Arc Shot</h1>
-```
-
-## Резюме
-
-- Ссылки создаются используя элемент `<a>`
-- Для указания страницы на которую мы ссылаемся используется атрибут `href`
-- Для ссылок на свой сайт лучше использовать относительные URL
-- Вы можете создать ссылки которые открывают почтовый клиент с заполненным полем «Кому» с `mailto:`
-- Можно использовать атрибут `id` для указания элементов внутри страницы на который можно сделать ссылку
-
-
 # Медиаконтент, форматы графики
 
 Есть множество причин, почему вы хотите добавить картинку на сайт: показать логотип, фотографию, иллюстрацию, диаграмму или график.
@@ -142,6 +34,18 @@ URI — Uniform Recource Identificator
 
 [Глубина цвета](https://ru.wikipedia.org/wiki/%D0%93%D0%BB%D1%83%D0%B1%D0%B8%D0%BD%D0%B0_%D1%86%D0%B2%D0%B5%D1%82%D0%B0) Wikipedia
 
+[Developers Guide to Images](https://www.jessechapo.com/posts/Developers-Guide-to-Images.html)
+
+### Цветовые модели
+
+#### Аддиттивная
+
+![](RGB.png)
+
+#### Субтрактивная
+
+![](CMYK.png)
+
 ### Цветовые профили (охват)
 
 [https://furbo.org/color/Colorful/](https://furbo.org/color/Colorful/) тест цвета
@@ -168,7 +72,10 @@ DCI-P3 дает на 25% больший цветовой охват
 
 Используется для фотографий или других видов изображений с плавными переходами между цветами. Не поддерживает прозрачность.
 
-[ImageOptim](https://imageoptim.com/versions.html)
+Магическое число для значения качества в диапазоне **60–85**. Больше 85 вы уже не заметите разницу на глаз, меньше 60 будет выглядеть плохо.
+
+[ImageOptim](https://imageoptim.com/versions.html) — Mac
+[FileOptimizer](https://sourceforge.net/projects/nikkhokkho/) — Windows
 
 #### [JPEG XR](https://uk.wikipedia.org/wiki/JPEG_XR) — от Microsoft
 
@@ -201,21 +108,30 @@ DCI-P3 дает на 25% больший цветовой охват
 
 - прозрачность — один уровень (без альфа прозрачности)
 - 256 цветов
-- анимация
+- анимация — единственный повод применять GIF
 
 #### [SVG](https://ru.wikipedia.org/wiki/SVG) — Scalable vector graphics
 
-Это, можно сказать, отдельная область знаний, для которой есть отдельные специалисты.
+Масштабируемая векторная графика для веб — подмножество языка XML, как следствие, такая графика доступна для манипуляций через CSS и JavaScript, и хорошо анимируется.
+
+Это, можно сказать, «отдельная область знаний», для которой есть отдельные специалисты.
+
+[SVG Tutorial](https://developer.mozilla.org/ru/docs/Web/SVG/Tutorial)
 
 [https://htmlacademy.ru/courses/130](https://htmlacademy.ru/courses/130) — курс для ознакомления по желанию
+
+##### Оптимизация SVG
+
+[https://jakearchibald.github.io/svgomg/](https://jakearchibald.github.io/svgomg/)
 
 ##### 	Демки SVG
 
 [Демо по svg рисованию](http://svgjs.com/svg.draw.js/demo/index.html)
 
-[https://tympanus.net/codrops/2017/10/17/dynamic-shape-overlays-with-svg/](https://tympanus.net/codrops/2017/10/17/dynamic-shape-overlays-with-svg/)Динамические формы при помощи SVG
+[Динамические формы при помощи SVG](https://tympanus.net/codrops/2017/10/17/dynamic-shape-overlays-with-svg/)
 
 `fill: red;` — покрасить цветом внутри path
+`stroke: blue` — покрасить контур
 
 [https://tympanus.net/Development/ShapeMorphIdeas/index3.html](https://tympanus.net/Development/ShapeMorphIdeas/index3.html)
 
@@ -235,6 +151,5 @@ DCI-P3 дает на 25% больший цветовой охват
 
 ## Оптимизация изображений
 
-[https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization?hl=ru](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization?hl=ru)
-
-[https://images.guide/](https://images.guide/) by Addy Osmani
+- [Оптимизация изображений](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization?hl=ru)
+- [https://images.guide/](https://images.guide/) by Addy Osmani
