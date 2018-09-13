@@ -97,6 +97,8 @@ URI — Uniform Recource Identificator
 <h1 id="arc_shot">Arc Shot</h1>
 ```
 
+[Работа с файлами](https://developer.mozilla.org/ru/docs/Learn/Getting_started_with_the_web/Dealing_with_files)
+
 ## Резюме
 
 - Ссылки создаются используя элемент `<a>`
