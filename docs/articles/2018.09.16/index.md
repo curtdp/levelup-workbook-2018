@@ -6,10 +6,10 @@
 
 ## Элементы
 
-[`<table>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table) — используется для создания таблицы, данные представлены построчно.
-[`<tr>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr) — table row, строка таблицы, внутри которой следуют несколько ячеек таблицы
-[`<td>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td) — table data, ячейка таблицы, содержит собственно данные таблицы.
-[`<th>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th) — table heading, используется как `<td>`, но содержит заголовок колонки или строки таблицы. Семантический элемент который помогает скринридерам и поисковым системам правильно интерпретировать данные таблицы.
+- [`<table>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table) — используется для создания таблицы, данные представлены построчно.
+- [`<tr>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr) — table row, строка таблицы, внутри которой следуют несколько ячеек таблицы
+- [`<td>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td) — table data, ячейка таблицы, содержит собственно данные таблицы.
+- [`<th>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th) — table heading, используется как `<td>`, но содержит заголовок колонки или строки таблицы. Семантический элемент который помогает скринридерам и поисковым системам правильно интерпретировать данные таблицы.
 
 Даже если ячейка не содержит данных, её нужно всё равно использовать в таблице, иначе таблица может отображаться не корректно.
 
@@ -28,7 +28,9 @@
 [https://webref.ru/layout/html5-css3/table](https://webref.ru/layout/html5-css3/table)
 
 ###  Атрибуты:
+
 `colspan` — для объединения ячеек по горизонтали
+
 `rowspan` — для объединения ячеек по вертикали
 
 ### Задание
