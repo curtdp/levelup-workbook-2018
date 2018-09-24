@@ -9,7 +9,7 @@
 ## Введение
 
 > Cascading Style Sheets (CSS) — это язык иерархических правил (таблиц стилей), используемый для представления внешнего вида документа, написанного на HTML или XML (включая различные языки XML, такие как SVG и XHTML). CSS описывает, каким образом элемент должен отображаться на экране, на бумаге, голосом или с использованием других медиа средств.
-
+>
 > CSS используется для стилизации и верстки веб-страниц. С помощью него можно менять шрифты, цвета, расстояние между блоками, разделять контент на колонки, добавлять анимацию и прочие декоративные элементы.
 
 [https://developer.mozilla.org/ru/docs/Web/CSS](https://developer.mozilla.org/ru/docs/Web/CSS)
@@ -25,10 +25,10 @@
 
 ![Разница между изданиями 2 редакция 576 страниц и 4 издание более 1000 страниц](/articles/2018.09.19/DraggedImage.jpeg "CSS The Definitive Guide 4th vs 2nd edition")
 
-Разнициа между изданиями — 13 лет
+Разница между изданиями — 13 лет
 
 [Примеры кода](https://meyerweb.github.io/csstdg4figs/index.html) — Github pages
-[Примеры кода](https://github.com/meyerweb/csstdg4figs) — репозиотрий git
+[Примеры кода](https://github.com/meyerweb/csstdg4figs) — репозиторий git
 
 ### Jon Dukket
 
@@ -89,19 +89,17 @@ p {
 <link rel="stylesheet" href="style.css">
 ```
 
-
-
 ### В теге [`<style>`](https://www.w3.org/TR/html52/document-metadata.html#the-style-element) (по старым правилам только внутри head), а с HTML 5.2 можно и в `<body>`
 
 ```html
 <style>
   p {
-	font-size: 18px;
-	color: blue;
+    font-size: 18px;
+    color: blue;
   }
 
   .highlight {
-	background-color: yellow;
+    background-color: yellow;
   }
 </style>
 ```
@@ -122,27 +120,26 @@ p {
 <p style="font-size: 20px; color: blue;">Текст параграфа с <mark style="background-color:burlywood;">выделенным</mark> фрагментом.</p>
 ```
 
-## Стили по умолчанию :
+## Стили по умолчанию
 
 У разных браузеров могут быть различные стили по умолчанию
 [https://stackoverflow.com/questions/6867254/browsers-default-css-for-html-elements](https://stackoverflow.com/questions/6867254/browsers-default-css-for-html-elements)
 
-### Подходы к приведению общего вида:
+### Подходы к приведению к общему виду
 
-- reset.css https://meyerweb.com/eric/tools/css/reset/
-- normalize.css https://github.com/necolas/normalize.css
-
+- [reset.css](https://meyerweb.com/eric/tools/css/reset/)
+- [normalize.css](https://github.com/necolas/normalize.css)
 - [CSS Box Model](https://www.smashingmagazine.com/2010/06/the-principles-of-cross-browser-css-coding/#understand-the-css-box-model)
 
-## Индентификаторы и классы
+## Идентификаторы и классы
 
 Атрибуты для выборки элементов
 
 ### Id
-- `id` — идентификатор элемента, должен быть уникален для всего документа.
-	`id="uniqueName"`
--
-###  Class
+
+- `id` — идентификатор элемента, должен быть уникален для всего документа. `id="uniqueName"`
+
+### Class
 
 `class` — класс документа, используется чтобы выделить группу элементов со схожим смыслом, для использования в css или javascript.
 
@@ -154,13 +151,11 @@ p {
 <p class="error message">Третий</p>
 ```
 
-
 ```html
 <p id="welcome">Приветственный текст</p>
 
 <p class="faq is-active">Какой-то другой текст</p>
 ```
-
 
 ## Селекторы
 
@@ -176,6 +171,7 @@ p {
 - `[data-url="http://url"]` — селектор атрибута с значением
 - `.message.warning` - селектор множественного класса (так же можно комбинировать селекторы элемента и атрибута)
 
+Селекторы классов и идентификаторов позволяют присваивать стили к элементам вне зависимости от структуры документа (в отличие от селекторов элементов).
 
 - [Простые селекторы](https://developer.mozilla.org/ru/docs/Learn/CSS/Introduction_to_CSS/Simple_selectors) (Simple selectors): Указывают на один или несколько элементов на основании типа элемента, класса (class), или id элемента.
 - [Селекторы атрибутов](https://developer.mozilla.org/ru/docs/Learn/CSS/Introduction_to_CSS/Attribute_selectors) (Attribute selectors): Указывают на один или несколько элементов на основании их атрибутов/значений атрибутов.
@@ -183,6 +179,8 @@ p {
 - [Псевдоэлементы](https://developer.mozilla.org/ru/docs/Learn/CSS/Introduction_to_CSS/Pseudo-classes_and_pseudo-elements#%D0%9F%D1%81%D0%B5%D0%B2%D0%B4%D0%BE%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D1%8B) (Pseudo-elements): Указывают одну или несколько частей содержимого страницы, определенным образом расположенные по отношению к элементу: например, первое слово в каждом параграфе или что-либо прямо перед элементом.
 - [Комбинаторы](https://developer.mozilla.org/ru/docs/Learn/CSS/Introduction_to_CSS/Combinators_and_multiple_selectors) (Combinators): Это не селекторы как таковые, а способы объединения селекторов для выбора по нескольким условиям одновременно. Например, можно выбрать только те параграфы, которые являются прямыми потомками элементов div или которые следуют сразу за заголовком.
 - [Группы селекторов](https://developer.mozilla.org/ru/docs/Learn/CSS/Introduction_to_CSS/Combinators_and_multiple_selectors#%D0%9D%D0%B5%D1%81%D0%BA%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE_%D1%81%D0%B5%D0%BB%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2_%D0%B2_%D0%BE%D0%B4%D0%BD%D0%BE%D0%BC_%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B5) (Multiple selectors): Идея здесь в том, что в одном CSS-правиле можно разместить несколько селекторов, отделив их друг от друга запятыми - тогда соответсвующий набор объявлений применяется сразу ко всем элементам, на которые указывают эти селекторы.
+
+[Список всех вариантов селекторов](https://www.w3.org/TR/2018/PR-selectors-3-20180911/#selectors) (спецификация)
 
 ## Упражнения
 

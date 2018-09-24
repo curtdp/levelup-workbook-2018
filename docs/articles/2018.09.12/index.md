@@ -1,9 +1,8 @@
 # Гипертекст, навигация (внутренняя и внешняя)
 
-**Jon Dukket 4 (стр. 81)**
+Jon Dukket 4 (стр. 81)
 
 [Примеры кода](http://www.htmlandcssbook.com/code-samples/)
-
 
 Ссылки — это определяющая функциональность веба, поскольку они позволяют вам переходить от одной странички, к другой и тем самым реализует идею веб браунинга или серфинга.
 
@@ -78,18 +77,17 @@ URI — Uniform Recource Identificator
 <a href="../../index.html">Home</a>
 ```
 
-
-## Почтовые ссылки mailto:
+### Почтовые ссылки mailto
 
 ```html
 <a href="mailto:jon@example.org">Email Jon</a>
 ```
 
-## Ссылки открывающиеся в новом окне
+### Ссылки открывающиеся в новом окне
 
 Используя атрибут [`target`](https://developer.mozilla.org/ru/docs/Web/HTML/Element/a#attr-target)
 
-## Ссылка на конкретную часть страницы
+### Ссылка на конкретную часть страницы
 
 ```html
 <a href="#arc_shot">Arc Shot</a>
@@ -99,7 +97,7 @@ URI — Uniform Recource Identificator
 
 [Работа с файлами](https://developer.mozilla.org/ru/docs/Learn/Getting_started_with_the_web/Dealing_with_files)
 
-## Резюме
+### Резюме
 
 - Ссылки создаются используя элемент `<a>`
 - Для указания страницы на которую мы ссылаемся используется атрибут `href`
@@ -107,8 +105,7 @@ URI — Uniform Recource Identificator
 - Вы можете создать ссылки которые открывают почтовый клиент с заполненным полем «Кому» с `mailto:`
 - Можно использовать атрибут `id` для указания элементов внутри страницы на который можно сделать ссылку
 
-
-# Медиаконтент, форматы графики
+## Медиаконтент, форматы графики
 
 Есть множество причин, почему вы хотите добавить картинку на сайт: показать логотип, фотографию, иллюстрацию, диаграмму или график.
 
@@ -150,11 +147,11 @@ URI — Uniform Recource Identificator
 
 #### Аддиттивная
 
-![](/articles/2018.09.12/RGB.png)
+![RGB](/articles/2018.09.12/RGB.png)
 
 #### Субтрактивная
 
-![](/articles/2018.09.12/CMYK.png)
+![CMYK](/articles/2018.09.12/CMYK.png)
 
 ### Цветовые профили (охват)
 
@@ -234,7 +231,7 @@ DCI-P3 дает на 25% больший цветовой охват
 
 [https://jakearchibald.github.io/svgomg/](https://jakearchibald.github.io/svgomg/)
 
-##### 	Демки SVG
+##### Демки SVG
 
 [Демо по svg рисованию](http://svgjs.com/svg.draw.js/demo/index.html)
 

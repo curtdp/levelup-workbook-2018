@@ -27,25 +27,25 @@
 
 [https://webref.ru/layout/html5-css3/table](https://webref.ru/layout/html5-css3/table)
 
-###  Атрибуты:
+### Атрибуты
 
 `colspan` — для объединения ячеек по горизонтали
 
 `rowspan` — для объединения ячеек по вертикали
 
-### Задание
+#### Задание 1
 
 [https://htmlacademy.ru/courses/39/run/14](https://htmlacademy.ru/courses/39/run/14)
 
-![](/articles/2018.09.16/DraggedImage.jpeg)
+![colspan](/articles/2018.09.16/DraggedImage.jpeg)
 
 Атрибут `colspan`
 
-### Задание
+#### Задание 2
 
 [https://htmlacademy.ru/courses/39/run/15](https://htmlacademy.ru/courses/39/run/15)
 
-![](/articles/2018.09.16/DraggedImage-1.jpeg)
+![rowspan](/articles/2018.09.16/DraggedImage-1.jpeg)
 
 Атрибут `rowspan`
 
@@ -58,26 +58,25 @@
 - [`<tfoot>`](https://developer.mozilla.org/ru/docs/Web/HTML/Element/tfoot)
 - [`<tbody>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody)
 
-### Стили таблиц
+#### Стили таблиц
 
 Повтор шапки и подвала при печати
 
 [https://codepen.io/curtdp/pen/LJJjOV](https://codepen.io/curtdp/pen/LJJjOV)
 
-## Полный Гайд по таблицам
+### Полный Гайд по таблицам
 
 [https://css-tricks.com/complete-guide-table-element/](https://css-tricks.com/complete-guide-table-element/)
 
-## Таблицы на HTMLAcademy
+### Таблицы на HTMLAcademy
 
 [Знакомство с таблицами](https://htmlacademy.ru/courses/39)
 
-
-# Формы
+## Формы
 
 В этом разделе основной материал по отсылкам в книги
 
-**Jon Dukket HTML & CSS Глава 7 стр. 145**
+### Jon Dukket HTML & CSS Глава 7 стр. 145
 
 [Примеры кода](http://www.htmlandcssbook.com/code-samples/chapter-07/)
 
@@ -95,10 +94,14 @@ HTML формы могут совершать только два вида http 
 Тип запроса указывается в атрибуте `method`, если атрибут не указан, по-умолчанию используется метод GET.
 
 ### [`<input type="hidden">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/hidden)
+
 Скрытое поле
+
 - токен для защиты от [csrf](https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B6%D1%81%D0%B0%D0%B9%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D0%BB%D0%BA%D0%B0_%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D0%B0)
 - метаданные к запросу (id записи откуда отправлены данные (комментарий, редактирование записи) и т. п.)
 
 ## HTML5 формы
 
-**Кит Джереми HTML5 для веб-дизайнеров, глава 4. Веб-формы 2.0**
+### Читать
+
+Кит Джереми HTML5 для веб-дизайнеров, глава 4. Веб-формы 2.0
