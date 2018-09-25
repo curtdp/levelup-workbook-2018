@@ -39,7 +39,7 @@ div#sidebar *[href] {color: silver;}  /* specificity = 0,1,1,1 */
 
 ### Постер Specificity Wars
 
-[Шпаргалка по расчету специфичности Specificity Wars](https://stuffandnonsense.co.uk/archives/css%5C_specificity%5C_wars.html)
+[Шпаргалка по расчету специфичности Specificity Wars](https://stuffandnonsense.co.uk/archives/css_specificity_wars.html)
 
 ## Каскадность и наследование
 
