@@ -102,10 +102,13 @@ a:hover:active {color: cyan;}    /* specificity = 2,1 */
 
 ### Читать
 
-#### Эрик Мейер Глава 3
+#### Книги
 
-#### Девид Макфарланд главы 4 и 5
+- Эрик Мейер Глава 3
+- Девид Макфарланд главы 4 и 5
 
-[https://htmlacademy.ru/courses/66](https://htmlacademy.ru/courses/66)
-[http://htmlbook.ru/samcss/nasledovanie](http://htmlbook.ru/samcss/nasledovanie)
-[http://htmlbook.ru/samcss/kaskadirovanie](http://htmlbook.ru/samcss/kaskadirovanie)
+#### Упражнения
+
+- [https://htmlacademy.ru/courses/66](https://htmlacademy.ru/courses/66)
+- [http://htmlbook.ru/samcss/nasledovanie](http://htmlbook.ru/samcss/nasledovanie)
+- [http://htmlbook.ru/samcss/kaskadirovanie](http://htmlbook.ru/samcss/kaskadirovanie)
