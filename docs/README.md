@@ -29,3 +29,5 @@
 [2018.10.14 CSS Flexbox 3, практика. Техника Sprite. Шрифты](/articles/2018.10.14)
 
 [2018.10.17 CSS Свойства текста](/articles/2018.10.17)
+
+[2018.10.17 CSS Grid Module](/articles/2018.10.17-grid)
