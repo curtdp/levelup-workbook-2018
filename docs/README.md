@@ -33,3 +33,5 @@
 [2018.10.17 CSS Grid Module](/articles/2018.10.17-grid)
 
 [2018.10.17 CSS Grid Практика, Media Queries, Feature Queries](/articles/2018.10.25)
+
+[2018.10.28 CSS Grid Responsive design. Responsive images](/articles/2018.10.28)
