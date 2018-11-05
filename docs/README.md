@@ -35,3 +35,7 @@
 [2018.10.17 CSS Grid Практика, Media Queries, Feature Queries](/articles/2018.10.25)
 
 [2018.10.28 CSS Grid Responsive design. Responsive images](/articles/2018.10.28)
+
+[2018.11.04 BEM и другие методологии](/articles/2018.11.04-methodology)
+
+[2018.11.04 Sass, Npm, Gulp](/articles/2018.11.04-instruments/index)
