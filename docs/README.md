@@ -39,3 +39,5 @@
 [2018.11.04 BEM и другие методологии](/articles/2018.11.04-methodology)
 
 [2018.11.04 Sass, Npm, Gulp](/articles/2018.11.04-instruments/index)
+
+[2018.11.04 Gulp, CSS Transformations, Transitions, Animations](/articles/2018.11.11)
