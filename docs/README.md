@@ -45,3 +45,5 @@
 [2018.11.04 Tailwind.css Git](/articles/2018.11.14)
 
 [2018.11.25 JavaScript Начало](/articles/2018.11.25)
+
+[2018.12.05 JavaScript Функции](/articles/2018.12.05)
