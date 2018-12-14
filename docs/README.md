@@ -47,3 +47,5 @@
 [2018.11.25 JavaScript Начало](/articles/2018.11.25)
 
 [2018.12.05 JavaScript Функции](/articles/2018.12.05)
+
+[2018.12.12 JavaScript Объекты и массивы](/articles/2018.12.12)
