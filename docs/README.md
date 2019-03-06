@@ -78,4 +78,4 @@
 
 [2019.03.03 Set](/articles/2019.03.04)
 
-[2019.03.03 Паттерны](/articles/2019.03.04-patterns)
+[2019.03.03 Паттерны](/articles/2019.03.04-patterns/index.md)
