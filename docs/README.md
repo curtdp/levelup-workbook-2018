@@ -84,4 +84,4 @@
 
 [2019.03.20 Vue.js](/articles/2019.03.20)
 
-[2019.03.24 Vue.js](/articles/2019.03.24)
+[2019.03.24 Vue.js Trivia App](/articles/2019.03.24)
