@@ -95,3 +95,5 @@
 [2019.04.06 Vue.js Компоненты примеры](/articles/2019.04.06)
 
 [2019.04.10 Vue.js routing](/articles/2019.04.10)
+
+[2019.04.14 Vue.js MovieDB](/articles/2019.04.14)
