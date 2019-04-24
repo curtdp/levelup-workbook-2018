@@ -99,3 +99,5 @@
 [2019.04.14 Vue.js MovieDB](/articles/2019.04.14)
 
 [2019.04.21 Vue.js MovieDB](/articles/2019.04.21)
+
+[2019.04.21 Vue.js MovieDB Scoped Slots](/articles/2019.04.24)
