@@ -103,3 +103,5 @@
 [2019.04.24 Vue.js MovieDB Scoped Slots](/articles/2019.04.24)
 
 [2019.05.08 Testing JS](/articles/2019.05.08)
+
+[2019.05.12 Cypress.io](/articles/2019.05.12)
